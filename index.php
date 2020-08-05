@@ -11,6 +11,7 @@
 	<title><?php echo "$siteTitle" ?>;</title>
 </head>
 <body>
+
 	<?php
 		echo "$header <br>";
  		echo "We'll start in $today <br>";
