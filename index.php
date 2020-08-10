@@ -28,7 +28,7 @@
 		{
 			echo $a + $b;
 		}
-
+echo '<hr>';
 	?>
 	<h4>Задание 2</h4><br>
 
@@ -69,7 +69,7 @@
 				echo '15';
 			break;
 		}
-
+echo '<hr>';
 	?>
 	<h4>Задание 3</h4><br>
 
@@ -98,7 +98,7 @@
 		echo sub($d, $e) . '<br>';
 		echo multi($d, $e) . '<br>';
 		echo div($d, $e) . '<br>';
-
+echo '<hr>';
 	?>
 
 	<h4>Задание 4</h4><br>
@@ -129,6 +129,7 @@
 		echo mathOperation($d, $e, 'sub') . '<br>';
 		echo mathOperation($d, $e, 'multi') . '<br>';
 		echo mathOperation($d, $e, 'div') . '<br>';
+echo '<hr>';
 	?>
 
 	<h4>Задание 6</h4><br>
@@ -149,6 +150,7 @@
 			return $val *  power($val, $pow-1);
 		};
 		echo power($d, $e);
+echo '<hr>';
 	?>
 
 	<h4>Задание 7</h4><br>
@@ -180,6 +182,7 @@
 			$minutes = " минут.";
 		}
 		echo $h . $hours . " " . $m . $minutes;
+echo '<hr>';
 	?>
 
 	<h4>Задание 5</h4><br>
